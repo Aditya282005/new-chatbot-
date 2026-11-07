@@ -9,7 +9,7 @@ age : int
 student_data={"name" :"ADITYA",
 "age":21}
 
-student= Student(student_data)
+student= Student(**student_data) unpack it importent
 print(student)
 
 with pydantic in ai i did model.structured_output store it in objct
