@@ -14,3 +14,6 @@ print(student)
 
 with pydantic in ai i did model.structured_output store it in objct
 then do this object.invoke
+
+
+today on 9th,i will do chains concept.i will do cloning!
