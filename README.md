@@ -22,4 +22,5 @@ its easy use : its of types TextLoader=converts text(txt)to document object,pfd 
 how to use= from langchain_community.document_loaders import TextLoader
 TextLoader('your filename in txt')
 store it in variable say result
-do print(result.load())
+do print(result.load())........it will be stored in list,
+also learned webbaseloader,pypdfloader(store  as 1 page per list..if 22 page pdf,there will be 23 lists)
