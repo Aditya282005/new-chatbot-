@@ -24,3 +24,15 @@ TextLoader('your filename in txt')
 store it in variable say result
 do print(result.load())........it will be stored in list,
 also learned webbaseloader,pypdfloader(store  as 1 page per list..if 22 page pdf,there will be 23 lists)
+
+
+did textsplitters.recursivecharactertextsplitters.
+from langchain.text_splitter  import recursivecharactertextsplitter
+
+splitter=recursivecharacterTextSplitter
+(
+chunk_size=300,
+chunk_overlap=0,
+)
+print(splitter.split_text())
+
