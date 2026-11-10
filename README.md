@@ -16,4 +16,10 @@ with pydantic in ai i did model.structured_output store it in objct
 then do this object.invoke
 
 
-today on 9th,i will do chains concept.i will do cloning!
+today on 9th,i will do chains concept.i will do cloning! here i did runnables=sequence,parallel,runnablegothrough
+work on 10th= im doing document  loaderr
+its easy use : its of types TextLoader=converts text(txt)to document object,pfd to document object
+how to use= from langchain_community.document_loaders import TextLoader
+TextLoader('your filename in txt')
+store it in variable say result
+do print(result.load())
