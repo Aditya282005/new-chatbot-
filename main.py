@@ -15,15 +15,32 @@ result=llm.invoke("what is pond")
 # print(result.content)
 
 embedding=OpenAIEmbeddings(model='text-embedding-3-large',dimensions=22)
-documents=["virat kholi is indian milf",
+documents=["virat kholi is indian",
            "shame whatson is australian",
-           "siya is very beautiful,we all like her body"
+           "chris gayle"
            ]
 
-query='tell me about siya'
+query='tell me about virat kholi'
 doc_embedding=embedding.embed_documents(documents)
 query_embedding=embedding.embed_query(query)
-print(cosine_similarity([query_embedding],  doc_embedding))
+score=(cosine_similarity([query_embedding],  doc_embedding))
+index,score=sorted(list(enumerate(score)),key=lamda x:x[1])[-1]
+print(query)
+print(document[index])
+print("vector similarity",score)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
