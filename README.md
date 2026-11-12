@@ -36,3 +36,5 @@ chunk_overlap=0,
 )
 print(splitter.split_text())
 
+studying vector database for 12th november
+
