@@ -37,4 +37,5 @@ chunk_overlap=0,
 print(splitter.split_text())
 
 studying vector database for 12th november
+today will build rag based application
 
